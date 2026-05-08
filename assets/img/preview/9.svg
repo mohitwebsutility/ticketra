@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-26.875" y1="556.764" x2="-26.875" y2="618.689" gradientTransform="matrix(8 0 0 -8 455 4941)">
+	<stop  offset="0" style="stop-color:#006DF0"/>
+	<stop  offset="1" style="stop-color:#00E7F0"/>
+</linearGradient>
+<path style="fill:url(#SVGID_1_);" d="M472,0H8C3.582,0,0,3.582,0,8v464c0,4.418,3.582,8,8,8h464c4.418,0,8-3.582,8-8V8
+	C480,3.582,476.418,0,472,0z M16,16h448v48H16V16z M464,464H16V80h448V464z"/>
+<g>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-51.875" y1="556.764" x2="-51.875" y2="618.689" gradientTransform="matrix(8 0 0 -8 455 4941)">
+		<stop  offset="0" style="stop-color:#006DF0"/>
+		<stop  offset="1" style="stop-color:#00E7F0"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_2_);" d="M32,32h16v16H32V32z"/>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-47.875" y1="556.764" x2="-47.875" y2="618.689" gradientTransform="matrix(8 0 0 -8 455 4941)">
+		<stop  offset="0" style="stop-color:#006DF0"/>
+		<stop  offset="1" style="stop-color:#00E7F0"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_3_);" d="M64,32h16v16H64V32z"/>
+	
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-43.875" y1="556.764" x2="-43.875" y2="618.689" gradientTransform="matrix(8 0 0 -8 455 4941)">
+		<stop  offset="0" style="stop-color:#006DF0"/>
+		<stop  offset="1" style="stop-color:#00E7F0"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_4_);" d="M96,32h16v16H96V32z"/>
+</g>
+<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-26.875" y1="556.764" x2="-26.875" y2="618.689" gradientTransform="matrix(8 0 0 -8 455 4941)">
+	<stop  offset="0" style="stop-color:#006DF0"/>
+	<stop  offset="1" style="stop-color:#00E7F0"/>
+</linearGradient>
+<path style="fill:url(#SVGID_5_);" d="M432,448v-16h-24V192h-80v64h-64v32h-48v-48h-80v64H72v128H48v16H432z M344,208h48v224h-48
+	V208z M280,272h48v160h-48V272z M264,304v128h-48V304H264z M152,256h48v176h-48V256z M88,320h48v112H88V320z"/>
+<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-27.2671" y1="556.764" x2="-27.2671" y2="618.689" gradientTransform="matrix(8 0 0 -8 455 4941)">
+	<stop  offset="0" style="stop-color:#006DF0"/>
+	<stop  offset="1" style="stop-color:#00E7F0"/>
+</linearGradient>
+<path style="fill:url(#SVGID_6_);" d="M104,256c13.255,0,24-10.745,24-24c-0.006-3.091-0.615-6.15-1.792-9.008l38.272-34.072
+	c7.776,4.426,17.39,4.054,24.8-0.96l27.904,20.936c-0.754,2.294-1.153,4.69-1.184,7.104c0,13.255,10.745,24,24,24
+	c13.255,0,24-10.745,24-24c-0.014-3.564-0.834-7.078-2.4-10.28l24.12-24.12c3.202,1.566,6.716,2.386,10.28,2.4
+	c13.255,0,24-10.745,24-24c-0.023-1.324-0.157-2.643-0.4-3.944l32.592-18.136c10.188,9.2,25.906,8.399,35.106-1.789
+	c9.2-10.188,8.399-25.906-1.789-35.106c-10.188-9.2-25.906-8.399-35.106,1.789c-5.173,5.729-7.392,13.537-6.003,21.13
+	l-32.592,18.136c-9.801-8.812-24.889-8.011-33.701,1.79c-6.498,7.227-7.965,17.674-3.707,26.41l-24.12,24.12
+	c-3.202-1.566-6.716-2.386-10.28-2.4c-4.728-0.013-9.353,1.379-13.288,4l-27.904-20.936c0.752-2.281,1.154-4.663,1.192-7.064
+	c0-13.255-10.745-24-24-24s-24,10.745-24,24c0.006,3.091,0.615,6.15,1.792,9.008L115.52,211.08c-3.514-1.994-7.48-3.055-11.52-3.08
+	c-13.255,0.011-23.991,10.764-23.981,24.019C80.03,245.259,90.76,255.989,104,256L104,256z M368,112c4.418,0,8,3.582,8,8
+	s-3.582,8-8,8s-8-3.582-8-8S363.582,112,368,112z M296,152c4.418,0,8,3.582,8,8s-3.582,8-8,8s-8-3.582-8-8S291.582,152,296,152z
+	 M240,208c4.418,0,8,3.582,8,8s-3.582,8-8,8s-8-3.582-8-8S235.582,208,240,208z M176,160c4.418,0,8,3.582,8,8s-3.582,8-8,8
+	s-8-3.582-8-8S171.582,160,176,160z M104,224c4.418,0,8,3.582,8,8s-3.582,8-8,8s-8-3.582-8-8S99.582,224,104,224z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
