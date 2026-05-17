@@ -1,0 +1,323 @@
+body {
+  background: #f4f7fd;
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(7, 98, 189, 1) 0%,
+    rgba(177, 64, 206, 1) 50%,
+    rgba(5, 42, 97, 1) 100%
+  );
+  padding: 10px;
+}
+
+header img.brand-logo {
+  width: 150px;
+}
+
+.flex_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.bg-success-rounded {
+  background: #157347;
+}
+
+header ul.dropdown-menu li {
+  padding: 0 15px;
+}
+
+header ul.dropdown-menu li span.bg-success-rounded {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+header ul.dropdown-menu li h6 {
+  margin-bottom: 0;
+}
+
+header ul.dropdown-menu li p {
+  font-size: 14px;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 15px;
+  margin-bottom: 8px;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.formEvent {
+  background: #fff;
+  padding: 25px;
+  top: -50px;
+  position: relative;
+}
+
+#freeOptionBox,
+#paidOptionBox {
+  display: none;
+}
+
+.btn-theme {
+  background-image: linear-gradient(188deg, #95e4b7, #10c1df 41%, #1c88d6);
+  border: none;
+}
+
+.ticket {
+  width: 800px;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.ticket-left {
+  flex: 3;
+  padding: 40px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #fff;
+}
+
+.event-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.ticket-left h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.date,
+.location {
+  opacity: 0.9;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.details {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.details span {
+  display: block;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+
+.details strong {
+  font-size: 16px;
+}
+
+.ticket-divider {
+  width: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #ddd,
+    #ddd 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  position: relative;
+}
+
+.ticket-divider::before,
+.ticket-divider::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #f3f4f6;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ticket-divider::before {
+  top: -15px;
+}
+
+.ticket-divider::after {
+  bottom: -15px;
+}
+
+.ticket-right {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.qr-box {
+  width: 120px;
+  height: 120px;
+  border: 2px dashed #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.ticket-right p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.qr-box img {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .ticket {
+    flex-direction: column;
+  }
+
+  .ticket-divider {
+    width: 100%;
+    height: 2px;
+    background: repeating-linear-gradient(
+      to right,
+      #ddd,
+      #ddd 8px,
+      transparent 8px,
+      transparent 16px
+    );
+  }
+
+  .ticket-divider::before,
+  .ticket-divider::after {
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .ticket-divider::before {
+    left: -12px;
+  }
+
+  .ticket-divider::after {
+    right: -12px;
+    left: auto;
+  }
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+/* Custom box */
+.checkmark {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #b3b3b3;
+  border-radius: 4px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Checked background */
+.custom-checkbox input:checked + .checkmark {
+  background: #28a745;
+  border-color: #28a745;
+}
+
+/* Tick mark */
+.custom-checkbox input:checked + .checkmark::after {
+  content: "✓";
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#currencyInput {
+  margin-top: 16px;
+  padding: 0 8px;
+}
+
+.soldout-tag {
+  position: absolute;
+  top: 15px;
+  right: -35px;
+  background: red;
+  color: white;
+  padding: 6px 40px;
+  font-size: 12px;
+  font-weight: bold;
+  transform: rotate(35deg);
+  z-index: 10;
+  display: none;
+}
+
+#newTicket .modal-dialog {
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
+#deleteTicket .modal-dialog {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
+.btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.TicketBtn {
+  border: none;
+  background: none;
+}

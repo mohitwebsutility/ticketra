@@ -85,7 +85,7 @@
                                 <a href="events.php">FInd Event</a>
                             </li>
                             <li>
-                                <a href="events.php">⁠Create Event</a>
+                                <a href="create-event.php">⁠Create Event</a>
                             </li>
                             <li><a href="#">Pricing</a></li>
                             <!-- <li><a href="#">Features</a></li>
