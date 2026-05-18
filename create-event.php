@@ -69,13 +69,13 @@
                             <!-- Event Starts On -->
                             <div class="col-md-6">
                                 <label class="form-label">Event Starts On <span class="text-danger">*</span></label>
-                                <input type="date" class="form-control" required>
+                                <input type="datetime-local" class="form-control" required>
                             </div>
 
                             <!-- Event Ends On -->
                             <div class="col-md-6">
                                 <label class="form-label">Event Ends On <span class="text-danger">*</span></label>
-                                <input type="date" class="form-control" required>
+                                <input type="datetime-local" class="form-control" required>
                             </div>
 
                             <!-- Time Zone -->
