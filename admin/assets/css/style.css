@@ -5893,7 +5893,7 @@ fieldset:disabled .btn {
   float: left;
   padding-right: 0.5rem;
   color: #6c757d;
-    /* rtl: var(--bs-breadcrumb-divider, "/") */;
+  /* rtl: var(--bs-breadcrumb-divider, "/") */
 }
 
 .breadcrumb-item.active {
@@ -27020,7 +27020,6 @@ pre[class*="language-"]:before {
   z-index: 1029;
   position: relative;
   color: #373a3c;
-  display: none;
 }
 
 .menu-styler h5,
