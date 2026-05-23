@@ -1,4 +1,4 @@
-<nav class="pcoded-navbar menu-light ">
+<nav class="pcoded-navbar menu-dark ">
     <div class="navbar-wrapper  ">
         <div class="navbar-content scroll-div ">
 
@@ -19,7 +19,7 @@
             </div>
 
             <ul class="nav pcoded-inner-navbar ">
-                <li class="nav-item"><a href="index.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-aperture"></i></span><span class="pcoded-mtext">Events</span></a></li>
+                <li class="nav-item active"><a href="index.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-aperture"></i></span><span class="pcoded-mtext">Events</span></a></li>
                 <li class="nav-item"><a href="events.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-aperture"></i></span><span class="pcoded-mtext">Events Profiles</span></a></li>
                 <li class="nav-item"><a href="events.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-aperture"></i></span><span class="pcoded-mtext">Reports</span></a></li>
             </ul>

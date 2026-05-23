@@ -2367,7 +2367,7 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #373a3c;
+  --bs-table-striped-color: #b9b9b9;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
   --bs-table-active-color: #373a3c;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
@@ -5570,7 +5570,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #020a0c;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -22549,7 +22549,7 @@ a.badge-light-dark:hover {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #373a3c;
+  color: #b9b9b9;
   font-weight: 400;
   background: linear-gradient(
     90deg,
@@ -25268,7 +25268,7 @@ pre[class*="language-"]:before {
   margin-top: 50px;
   border-radius: 0 6px 0 0;
   top: 0;
-  background: #101b33;
+  background: #000;
   color: #97a7c1;
 }
 
@@ -25964,7 +25964,8 @@ pre[class*="language-"]:before {
 
 .pcoded-navbar .pcoded-inner-navbar > li.active > a,
 .pcoded-navbar .pcoded-inner-navbar > li.pcoded-trigger > a {
-  background: #4680ff;
+  /* background: #4680ff; */
+  background-image: linear-gradient(188deg, #95e4b7, #10c1df 41%, #1c88d6);
   color: #fff;
   box-shadow: 0 10px 5px -8px rgba(0, 0, 0, 0.4);
 }
@@ -26569,7 +26570,11 @@ pre[class*="language-"]:before {
 }
 
 .pcoded-main-container {
-  background: #ecf0f5;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 46, 49, 1) 0%,
+    rgba(0, 11, 15, 1) 100%
+  );
   position: relative;
   margin: 0 auto;
   padding-top: 0;
@@ -27020,6 +27025,7 @@ pre[class*="language-"]:before {
   z-index: 1029;
   position: relative;
   color: #373a3c;
+  display: none;
 }
 
 .menu-styler h5,
